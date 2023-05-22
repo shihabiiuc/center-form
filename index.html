@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Center form & input field</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="row">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+        </div>
+
+        <div class="row">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+
+        <div class="row">
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+            rows="8"
+            cols="20"
+          ></textarea>
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!-- .container -->
+  </body>
+</html>
