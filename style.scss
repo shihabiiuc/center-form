@@ -12,6 +12,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2em;
 }
+h2 {
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0 0 10px;
+  color: #be0000;
+}
 .container {
   background-color: #fcfcfc;
   padding: 90px 15px;
@@ -19,6 +25,7 @@ body {
     // centering the form
     max-width: 700px;
     margin: 0 auto;
+
     .row {
       margin-bottom: 20px;
       label {
@@ -57,5 +64,28 @@ body {
     input[type="submit"]:hover {
       background-color: #0069d9;
     }
+  }
+}
+
+// example 2
+.example-2 {
+  // for development purpose and live preview
+  padding: 20px 15px;
+  border-bottom: 2px solid #bd0000;
+  background-color: #c4ffd4;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2023/03/axis.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 95vh;
+
+  // centgering x & y axis
+  display: flex;
+  justify-content: center; /* x-axis */
+  align-items: center; /* y-axis */
+
+  form {
+    width: 700px;
+    max-width: 100%;
   }
 }

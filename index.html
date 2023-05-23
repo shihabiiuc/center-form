@@ -10,6 +10,7 @@
   </head>
   <body>
     <div class="container">
+      <h2>Example 1 (horizontally center)</h2>
       <form>
         <div class="row">
           <label for="name">Name:</label>
@@ -49,5 +50,54 @@
       </form>
     </div>
     <!-- .container -->
+    <h2
+      style="
+        background-color: #b6f2c6;
+        margin-bottom: 0;
+        border-bottom: 1px solid #bd0000;
+      "
+    >
+      Example 2 (vertically & horizontally center)
+    </h2>
+    <div class="container example-2">
+      <form>
+        <div class="row">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+        </div>
+
+        <div class="row">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+
+        <div class="row">
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+            rows="4"
+            cols="20"
+          ></textarea>
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!-- .container .example-2 -->
   </body>
 </html>

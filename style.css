@@ -15,6 +15,13 @@ body {
   font-size: 1.2em;
 }
 
+h2 {
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0 0 10px;
+  color: #be0000;
+}
+
 .container {
   background-color: #fcfcfc;
   padding: 90px 15px;
@@ -61,4 +68,28 @@ body {
 }
 .container form input[type=submit]:hover {
   background-color: #0069d9;
+}
+
+.example-2 {
+  padding: 20px 15px;
+  border-bottom: 2px solid #bd0000;
+  background-color: #c4ffd4;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2023/03/axis.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; /* x-axis */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; /* y-axis */
+}
+.example-2 form {
+  width: 700px;
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
